@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'wiesite2',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': '127.0.0.1',
+        'HOST': '127.0.0.1','ieee-ideeeas-trail.herokuapp.com',
         'PORT': '3306'
     }
 }
