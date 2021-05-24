@@ -28,6 +28,5 @@ urlpatterns = [
     path('contact', views.contact, name='contact'),
     path('uregister', views.uregister, name='uregister'),
     path('admins', views.admins, name='admins'),
-    url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
-    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
+ 
 ]
