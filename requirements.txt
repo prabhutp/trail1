@@ -195,5 +195,4 @@ wincertstore==0.2
 wrapt==1.11.1
 WTForms==2.2.1
 xlrd==1.2.0
-XlsxWriter==1.1.5
 
