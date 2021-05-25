@@ -92,7 +92,7 @@ DATABASES = {
         'NAME': 'db3cso9i7n7d79',
         'USER': 'omcaasbybusbui',
         'PASSWORD': '1dded29ec71d8141e244f2a1efbd5c3ac65953bfb57580b1e1b1ce459884c93b',
-        'HOST': ['127.0.0.1','ieee-ideeeas-trail.herokuapp.com',],
+        'HOST': '127.0.0.1',
         'PORT': '5432'
     }
 }
