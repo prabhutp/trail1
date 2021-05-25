@@ -75,20 +75,20 @@ WSGI_APPLICATION = 'trail1.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'wiesite2',
-#         'USER': 'root',
-#         'PASSWORD': '',
-#         'HOST': ['127.0.0.1','ieee-ideeeas-trail.herokuapp.com',],
-#         'PORT': '3306'
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'wiesite2',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': ['127.0.0.1','ieee-ideeeas-trail.herokuapp.com',],
+        'PORT': '3306'
+    }
+}
 
-import dj_database_url
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
+# import dj_database_url
+# db_from_env = dj_database_url.config(conn_max_age=600)
+# DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
