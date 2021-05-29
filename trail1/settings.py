@@ -86,16 +86,16 @@ WSGI_APPLICATION = 'trail1.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db3cso9i7n7d79',
-        'USER': 'omcaasbybusbui',
-        'PASSWORD': '1dded29ec71d8141e244f2a1efbd5c3ac65953bfb57580b1e1b1ce459884c93b',
-        'HOST': '127.0.0.1',
-        'PORT': '5432'
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'db3cso9i7n7d79',
+#         'USER': 'omcaasbybusbui',
+#         'PASSWORD': '1dded29ec71d8141e244f2a1efbd5c3ac65953bfb57580b1e1b1ce459884c93b',
+#         'HOST': '127.0.0.1',
+#         'PORT': '5432'
+#     }
+# }
 
 import dj_database_url
 db_from_env = dj_database_url.config()
